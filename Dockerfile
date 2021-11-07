@@ -26,7 +26,3 @@ COPY . .
 
 CMD ["rails", "server", "-b", "0.0.0.0"]
 
-# CMD ["/bin/sh", "-c", "'rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0''"]
-
-
-# command: /bin/sh -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
